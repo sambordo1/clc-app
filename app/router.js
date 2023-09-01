@@ -6,4 +6,17 @@ export default class Router extends EmberRouter {
   rootURL = config.rootURL;
 }
 
-Router.map(function () {});
+Router.map(function () {
+  this.route('our-foundation');
+  this.route('sin');
+  this.route('repentance-from-dead-works');
+  this.route('redemption');
+  this.route('faith-toward-god');
+  this.route('water-baptism');
+  this.route('holy-spirit-baptism');
+  this.route('fire-baptism');
+  this.route('laying-on-of-hands');
+  this.route('divine-healing');
+  this.route('resurrection-of-the-dead');
+  this.route('eternal-judgement');
+});

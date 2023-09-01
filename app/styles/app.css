@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic);
+
+/**
+ * Base Elements
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+span,
+a,
+button {
+  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  background: #f3f3f3;
+}
+
+a {
+  color: #016aba;
+  text-decoration: none;
+}
+
+button {
+  font-size: 100%;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/**
+ * Nav Bar Component
+ */
+.nav {
+    background-color: black;
+    color: #f3f3f3;
+}
+.nav a {
+    color: #f3f3f3;
+    font-size: medium;
+}
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.nav li {
+    display: inline-block;
+    position: relative;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.nav .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black; 
+    border: 1px solid #151d54;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+.nav .submenu li {
+    display: block;
+    padding: 5px;
+    color: white;
+}
+.nav .submenu a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+}
+.nav .submenu li:hover {
+    background-color: gray;
+}
+.nav li:hover .submenu {
+    display: block;
+}
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #151d54;
+    color:#f3f3f3;
+    padding: 20px;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    float: left;
+    border:rgba(0, 0, 0, 0.2) solid 5px;
+}
+
+/**
+ * Home Page
+ */
+ .content-text h3 {
+  background-color: #151d54;
+  color:#f3f3f3;
+  padding: 10px;
+  margin: 10px;
+  border : 5px solid #151d54;
+  border-radius: 10px;
+ }
+ .content-text-lists {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+ }
+ .content-text {
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+ }
+ .content-text li {
+  padding: 5px;
+  margin: 5px;
+
+ }
+ .content-text a {
+  background-color: #151d54;
+  color: #f3f3f3;
+  display: block;
+  border : 5px solid #151d54;
+  border-radius: 10px;
+ }
+
+
+
+
