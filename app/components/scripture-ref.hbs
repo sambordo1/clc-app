@@ -1,0 +1,10 @@
+<div>
+  <h2 class="scripture-ref-title" {{action 'toggle'}}>
+    {{@scripture-title}}
+  </h2>
+  {{#if this.isOpen}}
+    <div class="scripture-ref-content">
+      {{yield}}
+    </div>
+  {{/if}}
+</div>

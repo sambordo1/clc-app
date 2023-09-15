@@ -19,4 +19,6 @@ Router.map(function () {
   this.route('divine-healing');
   this.route('resurrection-of-the-dead');
   this.route('eternal-judgement');
+  this.route('church-discipline');
+  this.route('grace');
 });

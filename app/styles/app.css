@@ -141,6 +141,64 @@ p {
   border : 5px solid #151d54;
   border-radius: 10px;
  }
+ .content-background {
+  background-color: gray;
+  padding: 10px;
+  margin: 10px;
+  border : 5px solid #151d54;
+  border-radius: 10px;
+ }
+
+.content-text a:hover {
+  background-color: white;
+  border : 5px solid white;
+  color: #151d54;
+  display: block;
+  border-radius: 10px;
+}
+
+/**
+ * Content Section
+ */
+
+ .section-title {
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: black;
+  color:#f3f3f3;
+  padding: 15px;
+ }
+ .section-title:hover {
+  background-color: gray;
+  cursor: pointer;
+
+ }
+ .section-content {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  /* border : 5px solid #151d54;
+  border-radius: 10px; */
+ }
+ .scripture-ref-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(237, 202, 4);
+
+ }
+ .scripture-ref-title:hover {
+  color: gray;
+  cursor: pointer;
+ }
+ .scripture-ref-content {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  border : 2px solid #151d54;
+  border-radius: 10px;
+
+ }
 
 
 

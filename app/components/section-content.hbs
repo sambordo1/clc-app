@@ -1,0 +1,10 @@
+<div>
+  <h2 id="section-title" class="section-title" {{action 'toggle'}}>
+    {{@section-title}}
+  </h2>
+  {{#if this.isOpen}}
+    <div class="section-content">
+      {{yield}}
+    </div>
+  {{/if}}
+</div>
